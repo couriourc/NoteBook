@@ -1,0 +1,50 @@
+.button-container {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+}
+
+.button {
+  outline: none;
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  color: ghostwhite;
+  border: solid 1px #eee;
+  transition: 2s;
+  outline-style: inherit;
+  border-radius: 2em;
+  transform-origin: center;
+}
+
+.button:hover {
+  transform: skewX(-29deg);
+  box-shadow: blueviolet 5px 5px 1px, aqua 8px 8px 1px;
+  border-radius: 2em;
+  /* animation: special 8s linear  infinite; */
+  filter: contrast(90%);
+  font-size: 1.5em;
+  font-family: introduceFont;
+}
+
+.colorful-button {
+  background-image: linear-gradient(45deg, blue, red);
+}
+
+@keyframes special {
+  0% {
+    transform: skewX(0deg);
+  }
+  25% {
+    transform: skewX(29deg);
+  }
+  50% {
+    transform: skewX(0deg);
+  }
+  75% {
+    transform: skewY(-29deg);
+  }
+  100% {
+    transform: skewY(0deg);
+  }
+}

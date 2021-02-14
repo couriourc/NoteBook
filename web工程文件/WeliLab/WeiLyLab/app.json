@@ -1,0 +1,43 @@
+{
+  "entryPagePath": "pages/root/root",
+  "pages": [
+    "pages/root/root",
+    "pages/join/join",
+    "pages/concat/concat",
+    "pages/set/set",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "微力实验室",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "backgroundColor": "#000"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/root/root",
+      "text": "首页",
+      "iconPath": "./asset/icon/home.png",
+      "selectedIconPath": "./asset/icon/active-home.png"
+    },{
+      "pagePath": "pages/join/join",
+      "text": "加入",
+      "iconPath": "./asset/icon/join.png",
+      "selectedIconPath": "./asset/icon/active-join.png"
+    },{
+      "pagePath": "pages/concat/concat",
+      "text": "聊天",
+      "iconPath": "./asset/icon/chat.png",
+      "selectedIconPath": "./asset/icon/act-chat.png"
+    },{
+      "pagePath": "pages/set/set",
+      "text": "设置",
+      "iconPath": "./asset/icon/ctrl.png",
+      "selectedIconPath": "./asset/icon/act-ctrl.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

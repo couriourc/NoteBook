@@ -1,0 +1,20 @@
+<!--pages/root/root.wxml-->
+<view class="root-container">
+  <view class="section">
+    <!-- 微力主页面 -->
+    <view class="introduce-bar">
+      <image src="https://s3.ax1x.com/2021/02/04/ylcstf.png" class="logo"></image>
+      <text class="introduce-text">
+        微力科技实验室，由2010级计算机与软件工程学院张天夫学长于2013年成立，属于校企联合实验室。
+        从成立以来，发展至今已有四个部门，Web开发、Android开发、Unity3D开发、美工设计。
+        实验室发展至今，已不仅是一个实验室，更多的是一个平台，一个提供编程开发、学习交流、技术分享、组建团队、创新创业的平台。
+    </text>
+    </view>
+    <view class="btn-bar">
+      <icon id="web" class="btn iconfont icon-ziyuan1072"></icon>
+      <icon id="unity" class="btn iconfont icon-unity"></icon>
+      <icon id="ui" class="btn iconfont icon-UIzhongguo"></icon>
+      <icon id="android"  class="btn iconfont icon-android"></icon>
+    </view>
+  </view>
+</view>
