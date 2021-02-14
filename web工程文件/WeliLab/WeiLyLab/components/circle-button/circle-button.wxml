@@ -1,7 +1,0 @@
-<!--components/circle-button.wxml-->
-<block class="circle-button-view">
-  <button class="circle-button">
-    {{content}}
-  </button>
-  <p class="icon-qq-copy"></p>
-</block>
